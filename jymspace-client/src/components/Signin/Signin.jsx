@@ -1,9 +1,16 @@
 import React from 'react'
 import './Signin.css'
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+import Form from '../Form/Form'
 
 const Signin = () => {
   return (
-    <div>SignIn</div>
+    <div>
+     <Navbar/>
+     <Form/>
+     <Footer/>
+    </div>
   )
 }
 
